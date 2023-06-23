@@ -42,7 +42,8 @@
             </ul>
         </div>
         <div class="logo">
-            <img src="../assets/img/dc-logo-bg.png" alt="">
+            <img src="{{ Vite::asset('resources/img/cta-icons.png')}}" alt="Dc Logo" />
+
         </div>
     </div>
     <div class="footer-bottom">
