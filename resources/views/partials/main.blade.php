@@ -4,7 +4,13 @@
       <div class="container">
           <span class="current">CURRENT SERIES</span>
           <div class="comics">
-                
+                @foreach($comics as $comic)
+                <div class="card">
+                  <img src="{{ Vite::asset($comic['thumb']) }}" alt=""/>
+                  <h5> {{ $comic["title"] }}</h5>
+                </div>
+                  
+                @endforeach
           </div>
           <div class="more">
             <span class="button">LOAD MORE</span>
