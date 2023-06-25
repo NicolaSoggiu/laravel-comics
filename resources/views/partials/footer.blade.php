@@ -49,12 +49,12 @@
     <div class="footer-bottom">
         <button> <span>SIGN-UP NOW!</span></button>
         <div class="social">
-            <span>FOLLOW US</span>
-            <img src="../assets/img/footer-facebook.png" alt="">
-            <img src="../assets/img/footer-twitter.png" alt="">
-            <img src="../assets/img/footer-youtube.png" alt="">
-            <img src="../assets/img/footer-pinterest.png" alt="">
-            <img src="../assets/img/footer-periscope.png" alt="">
+            <span class="follow">FOLLOW US</span>
+            <img src="{{ Vite::asset('resources/img/footer-periscope.png')}}"/>
+            <img src="{{ Vite::asset('resources/img/footer-pinterest.png')}}" />
+            <img src="{{ Vite::asset('resources/img/footer-twitter.png')}}" />
+            <img src="{{ Vite::asset('resources/img/footer-periscope.png')}}"/>
+            <img src="{{ Vite::asset('resources/img/footer-facebook.png')}}" />
         </div>
     </div>
 </div>

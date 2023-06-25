@@ -7,7 +7,7 @@
                 @foreach($comics as $comic)
                 <div class="card">
                   <img src="{{ Vite::asset($comic['thumb']) }}" alt=""/>
-                  <h5> {{ $comic["title"] }}</h5>
+                  <h6 class="text-white"> {{ $comic["title"] }}</h6>
                 </div>
                   
                 @endforeach
@@ -39,8 +39,7 @@
               <span>COMIC SHOP LOCATOR</span>
           </div>
           <div class="mini-card">
-            <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt="" />
-
+            <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="" />
 
               <span>DC POWER VISA</span>
           </div>

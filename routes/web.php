@@ -230,3 +230,11 @@ Route::get('/', function () {
         ]
     ]);
 });
+
+Route::get('/news', function () {
+    return view('news');
+});
+
+Route::get('/shop', function () {
+    return view('shop');
+});

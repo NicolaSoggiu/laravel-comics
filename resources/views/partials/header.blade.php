@@ -11,8 +11,8 @@
         <a href="#"> COLLECTIBLES </a>
         <a href="#"> VIDEOS </a>
         <a href="#"> FANS </a>
-        <a href="#"> NEWS </a>
-        <a href="#"> SHOP </a>
+        <a href="/news"> NEWS </a>
+        <a href="/shop"> SHOP </a>
     </div>
 
     <li><input class="form-control" type="text" placeholder="Search"></li>
