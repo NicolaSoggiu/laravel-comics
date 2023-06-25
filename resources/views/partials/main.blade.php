@@ -20,28 +20,28 @@
           <div class="mini-card">
             <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="" />
 
-              <span>DIGITAL COMICS</span> 
+              <span class="ps-1 pe-3">DIGITAL COMICS</span> 
           </div>
-          <div class="mini-card d-flex align-items-center">
+          <div class="mini-card d-flex align-items-center ps-3">
             <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png')}}" alt="" />
 
 
-              <span>DC MERCHANDISE</span>
+              <span class="ps-1 pe-3">DC MERCHANDISE</span>
           </div>
           <div class="mini-card">
             <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png')}}" alt="" />
 
-              <span>SUBSCRIPTION</span>
+              <span class="ps-1 pe-3">SUBSCRIPTION</span>
           </div>
           <div class="mini-card">
             <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt="" />
 
-              <span>COMIC SHOP LOCATOR</span>
+              <span class="ps-1 pe-3">COMIC SHOP LOCATOR</span>
           </div>
           <div class="mini-card">
-            <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="" />
+            <img src="{{ Vite::asset('resources/img/visa.svg')}}" alt="" />
 
-              <span>DC POWER VISA</span>
+              <span class="ps-1 pe-3">DC POWER VISA</span>
           </div>
       </div>
     </div>
