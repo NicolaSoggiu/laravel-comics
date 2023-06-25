@@ -1,4 +1,4 @@
-<div class="nav">
+<div class="nav d-flex justify-content-around align-items-center">
     <div class="logo">
         <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="Dc Logo" />
     </div>

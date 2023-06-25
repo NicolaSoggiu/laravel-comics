@@ -1,6 +1,6 @@
 <div class="footer">
-    <div class="footer-top">
-        <div class="link">
+    <div class="footer-top d-flex">
+        <div class="link d-flex justify-content-center flex-wrap g-2">
             <ul>
                 <li class="first">DC COMICS</li>
                 <li>Characters</li>
@@ -46,9 +46,9 @@
 
         </div>
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom d-flex justify-content-around align-items-center">
         <button> <span>SIGN-UP NOW!</span></button>
-        <div class="social">
+        <div class="social d-flex aling-center-center">
             <span class="follow">FOLLOW US</span>
             <img src="{{ Vite::asset('resources/img/footerPinterest.png')}}"/>
             <img src="{{ Vite::asset('resources/img/footerTwitter.png')}}" />

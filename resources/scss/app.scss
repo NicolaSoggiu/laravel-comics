@@ -1,7 +1,8 @@
+// GENERAL
+
 @import "~bootstrap/scss/bootstrap";
 
 * {
-    font-weight: 300;
     font-family: "Bangers";
 }
 
@@ -9,14 +10,10 @@
 
 .nav {
     height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     .logo img {
         width: 100%;
     }
     .voices ul {
-        display: flex;
         font-size: 0.8rem;
         gap: 0.5rem;
     }
@@ -56,15 +53,12 @@ main {
         }
     }
     .comics {
-        display: flex;
-        flex-wrap: wrap;
         gap: 1rem;
         padding-top: 2rem;
     }
     .more {
-        display: flex;
-        justify-content: center;
         .button {
+            color: black;
             background-color: #0282f9;
             margin-top: 1.2rem;
             margin-bottom: 1rem;
@@ -103,17 +97,11 @@ h5 {
     color: white;
     background-color: #0282f9;
     height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
     img {
         width: 50px;
         height: 60px;
     }
     .mini-card {
-        display: flex;
-        align-items: center;
         span {
             padding-left: 1rem;
         }
@@ -155,15 +143,10 @@ button {
 .footer {
     height: 55vh;
     .footer-top {
-        display: flex;
         height: 55vh;
         background-image: url("../img/favicon.ico");
         .link {
-            display: flex;
-            justify-content: center;
             align-items: top;
-            flex-wrap: wrap;
-            gap: 2rem;
             color: white;
             width: 60%;
             height: 45vh;
@@ -178,14 +161,9 @@ button {
         }
     }
     .footer-bottom {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
         height: 10vh;
         background-color: #303030;
         .social {
-            display: flex;
-            align-items: center;
             gap: 0.5rem;
             .follow {
                 color: #0282f9;
