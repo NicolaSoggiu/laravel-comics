@@ -79,6 +79,12 @@ main {
     &:hover {
         cursor: pointer;
     }
+    .comic-description {
+        color: white;
+        &:hover {
+            color: grey;
+        }
+    }
 }
 
 .card img {

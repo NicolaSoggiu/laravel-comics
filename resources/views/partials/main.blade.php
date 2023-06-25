@@ -7,7 +7,7 @@
                 @foreach($comics as $comic)
                 <div class="card">
                   <img src="{{ Vite::asset($comic['thumb']) }}" alt=""/>
-                  <h6 class="text-white"> {{ $comic["title"] }}</h6>
+                  <h6 class="comic-description"> {{ $comic["title"] }}</h6>
                 </div>
                   
                 @endforeach
