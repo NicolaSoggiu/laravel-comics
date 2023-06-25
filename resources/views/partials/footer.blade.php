@@ -50,11 +50,11 @@
         <button> <span>SIGN-UP NOW!</span></button>
         <div class="social">
             <span class="follow">FOLLOW US</span>
-            <img src="{{ Vite::asset('resources/img/footer-periscope.png')}}"/>
-            <img src="{{ Vite::asset('resources/img/footer-pinterest.png')}}" />
-            <img src="{{ Vite::asset('resources/img/footer-twitter.png')}}" />
-            <img src="{{ Vite::asset('resources/img/footer-periscope.png')}}"/>
-            <img src="{{ Vite::asset('resources/img/footer-facebook.png')}}" />
+            <img src="{{ Vite::asset('resources/img/footerPinterest.png')}}"/>
+            <img src="{{ Vite::asset('resources/img/footerTwitter.png')}}" />
+            <img src="{{ Vite::asset('resources/img/footerYoutube.png')}}" />
+            <img src="{{ Vite::asset('resources/img/footerPinterest.png')}}"/>
+            <img src="{{ Vite::asset('resources/img/footerPeriscope.png')}}" />
         </div>
     </div>
 </div>
